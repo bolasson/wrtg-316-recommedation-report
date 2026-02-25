@@ -56,7 +56,7 @@ Recent advancements in multi-agent verification provide a potential path forward
 
 ## Summary of Options
 
-| Feature                    | Option A: Status Quo        | Option B: Design Framework | Option C: Multi-Agent Model |
+| Feature                    | Option A: Unconstrained AI Assistance | Option B: Design Framework | Option C: Multi-Agent Model |
 | :------------------------- | :-------------------------- | :------------------------- | :-------------------------- |
 | **Initial Delivery Speed** | Very High                   | High                       | Moderate                    |
 | **Long-term Reliability**  | Low (System breaks easily)  | High (+60% Stability)      | Very High                   |
