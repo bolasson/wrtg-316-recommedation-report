@@ -4,8 +4,6 @@ Callstack. (2026, January 16). _Announcing: React Native best practices for AI a
 
 Esposito, M., Li, X., Moreschini, S., Ahmad, N., Cerny, T., Vaidhyanathan, K., Lenarduzzi, V., & Taibi, D. (2025). _Generative AI for software architecture: Applications, challenges, and future directions_. _Journal of Systems and Software, 231_, 112607. [https://doi.org/10.1016/j.jss.2025.112607](https://doi.org/10.1016/j.jss.2025.112607)
 
-Gonçalves, C. A., & Gonçalves, C. T. (2025). _Assessment on the effectiveness of GitHub Copilot as a code assistance tool: An empirical study_. In _Progress in Artificial Intelligence (EPIA 2024)_ (LNCS 14969, pp. 27–38). Springer. [https://doi.org/10.1007/978-3-031-73503-5_3](https://doi.org/10.1007/978-3-031-73503-5_3)
-
 Haindl, P., & Weinberger, G. (2024). _Does ChatGPT help novice programmers write better code? Results from static code analysis_. _IEEE Access, 12_, 114146–114156. [https://doi.org/10.1109/ACCESS.2024.3445432](https://doi.org/10.1109/ACCESS.2024.3445432)
 
 Nashid, N., Santaha, M., & Mesbah, A. (2023). _Retrieval-based prompt selection for code-related few-shot learning_. In _Proceedings of the IEEE/ACM International Conference on Software Engineering (ICSE)_. [https://people.ece.ubc.ca/amesbah/resources/papers/cedar-icse23.pdf](https://people.ece.ubc.ca/amesbah/resources/papers/cedar-icse23.pdf)

@@ -1,4 +1,5 @@
-# 5.1 Problem Description: Technical Debt and Skill Gaps
+# 5 Problem Description
+## 5.1 Technical Debt and Skill Gaps
 
 Right now, the EYARC Experience Team at BYU is in a tough spot with how we build software. Even though using AI has helped us write code faster, it has also caused a lot of bugs and long-term problems because we don't have a set plan for how to use it. This section looks at why this is happening, focusing on how our student team setup, the use of AI tools, and a lack of clear rules all work together to create these issues.
 
@@ -20,7 +21,7 @@ It is also very easy to let the AI handle the hard parts of coding, but this can
 
 In the end, the bugs and long-term problems we are seeing at the EYARC Experience Team come from combining powerful AI tools with a student team that doesn't have a consistent set of rules to follow. I think we should stop relying on "fast and flimsy" results and start using a framework that keeps our code clean and reliable as students come and go, and as our use of AI continues to grow. These behavioral habits are just as dangerous as the technical ones, and they must be addressed together. Because both our technical structure and our team behavior contribute to this instability, any solution must address both.
 
-# 6.1 Options and Potential Solutions
+# 6 Options and Potential Solutions
 
 To help fix the issues we are having with buggy code and long-term instability, we have two main choices. We can either keep doing things the way we are right now with "fast and flimsy" AI, or we can start using a real software design plan to keep our main web app organized. To mitigate the risks of unconstrained AI, a more structured approach is required.
 
@@ -45,6 +46,16 @@ Other teams and companies have seen great results with the SOLID approach. For e
 ### Prompt Templates
 
 Next, we can improve how we talk to the AI by using specific templates for our prompts. We considered using a Retrieval-Augmented Generation (RAG) system, but that might be more work than we need right now. Instead, we can just give the AI specific examples of our best code to copy. Research shows that giving AI a few good examples (called "few-shot learning") can drastically improve its results (Nashid, 2023). This helps stop the AI from just copy-pasting random code that doesn't fit our project (Tartaglia, 2025). By using these blueprints, we can make sure the AI builds things in a way that matches what we've already written without adding extra technical overhead.
+
+**Figure 1**
+
+_Title_
+
+![Example implementation of a prompt template system](./PromptTemplates.png)
+
+_Note._
+
+Pg 772
 
 ### Human Oversight
 
