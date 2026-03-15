@@ -5,7 +5,7 @@ is the sum of the findings and recommendations
 complicated, more than one sentence
 controls the flow of the content throughout the report
 
-focus on the audience (boss/dr wood/dad/bro wood/david/father of my wife/soon to be grandpa)
+focus on the audience (david wood)
 
 1. Define the problem (subject)
 When our student team uses Generative Artificial Intelligence (GenAI) to generate code, they're able to accomplish short term goals, but often introduce long term technical debt.

@@ -1,3 +1,63 @@
+# 1 Letter of Transmittal
+
+Bryce Lasson<br/>
+Software Engineer<br/>
+436 Stadium Ave BSMT<br/>
+Provo, UT 84604
+
+March 14, 2026
+
+Dr. David Wood<br/>
+Team Leader, Ernst & Young Academic Resource Center (EYARC) Professor<br/>
+EYARC Lab at Brigham Young University (BYU)<br/>
+332 Campus Dr<br/>
+Provo, UT, 84604
+
+Dear Dr. David Wood,
+
+I am pleased to submit my recommendation report, ***Stabilizing Speed: A Software Design Framework for AI-Assisted Development on the EYARC Experience Team***, for your review.
+
+Because you choose whether our team invests time in a design framework, I wrote this document to assist you in development planning for the next couple of months. My report focuses on the speed of new feature delivery, reducing the amount of time spend reviewing duplicated code, and our need for solutions that students can learn quickly without slowing the team down. The recommendation is less about our past mishaps (though they will be referenced), and more about how to integrate AI without reducing our delivery speed each semester. The cause of the aforementioned speed loss is supported by research on technical debt and AI-assisted development, which suggests that “quick wins” can become expensive when systems grow without shared structure, especially when small changes can be unpredictable across a codebase (Sculley et al., 2015; Tartaglia, 2025). My report recommends adopting a lightweight, student-friendly framework that combines:
+
+* **A small set of design rules to reduce poor coupling**—which tends to increase maintenance effort as the application evolves (Yanakiev et al., 2025). 
+* **A prompt-template library (based on few-shot prompting) so AI output matches our preferred structures**, reducing inconsistency and time lost to refactoring (Esposito et al., 2026). 
+* **A “human-first” review protocol to guard against automation bias**, keeping students accountable for understanding and testing changes before merging (Romeo & Conti, 2026). 
+
+I am optimistic that this approach aligns with your three priorities for are team.
+
+1. **Ease of learning for students.** Evidence from programming education suggests that AI can support cleaner, less complex code when students are guided by conventions and standards (Haindl & Weinberger, 2024). 
+2. **Reasonable creation time for the guide.** My report proposes packaging guidance in an “actionable skills” format (short, structured, reusable) similar to how software development teams publish best-practice modules for agents, which is helpful for fast onboarding and consistent application (Pierzchała, 2026). 
+3. **Development time savings for new features.** Industry and academic sources share a consistent theme: AI tends to deliver strong ROI when teams reduce rework with context, patterns, and disciplined review (Sergeyuk et al., 2024; Tartaglia, 2025). When these patterns aren't used, like we do, the review and debugging overhead can decrease the speed gained when using AI. (Sergeyuk et al., 2024; Tartaglia, 2025). 
+
+As a student developer, my perspective is very focused on how this could be implemented and my own design biases. As such, I’ve tried to be careful about overclaiming. Where possible, I've built my proposed framework using external ideas and studies, such as how to refactor using design principles in large systems (Yanakiev et al., 2025), how to create maintainable code using design patterns and multi-agent workflows (Wang et al., 2025), and human in the loop practices that reduce overreliance on AI outputs (Esposito et al., 2026; Romeo & Conti, 2026).
+
+Thank you for taking the time to consider this recommendation. If you decide the approach is worthwhile, my report closes with a recommend starting plan, which you can adjust as you and our project manager see fit. The starting plan includes a short design-pattern guide, a small prompt library filled with our best code examples, and a review routine that keeps humans responsible for all AI generated code. I hope you find this useful as you strive to improve our teams speed and results.
+
+Sincerely,<br/>
+<img src="./01_letter_of_transmittal/Signature.png" alt="Bryce Lasson's Signature" width="250" height="50"><br/>
+Bryce Lasson
+
+# 2 Title Page
+### Stabilizing Speed: A Software Design Framework for AI-Assisted Development on the EYARC Experience Team
+
+Bryce Lasson
+
+Department of Computer Science, Brigham Young University
+
+WRTG 316: Technical Communication
+
+Dr. Nicole Clawson
+
+March 14, 2026
+
+# 3 Executive Summary
+
+Our team is moving fast with AI-assisted development. AI helps us write code quickly, but we do not have a shared system for how that code should be structured, reviewed, or matched to the rest of our app. Because of that, time saved early can be lost later through debugging, refactoring, and dependency problems. Research supports that risk. Tartaglia reports that experienced developers on familiar codebases took 19% longer when AI suggestions required extra review, validation, and debugging. Sculley et al. also warn that quick wins in complex systems often create long-term maintenance costs when structure is weak. Our team has seen these quick wins, time losses, and weak structure, evident in our prior database refactors, but we have another factor contributing to our situation.
+
+Everyone on our team is currently a student, so we also deal with the challenges that come with student turnover and varying experience levels. Research on student programmers shows that AI can help students produce code with fewer errors and lower complexity, but the final work still reflects both AI output and student revision (Haindl & Weinberger, 2024). Part of this problem is that our team does not always fully understand the code AI generates. Our weak structure may also be due to a lack of thorough review. Research on automation bias shows that people can favor automated recommendations too quickly, especially when the workflow does not require active human judgment before seeing AI output (Romeo & Conti, 2026). Put together, these student risks suggest that our problem is not AI alone, but the lack of a shared process for how we use it. The next step is to decide how our team should move forward.
+
+I considered three options. The first is to continue using AI without shared constraints. The second option is to create an integrated software design framework that uses software design patterns, prompt templates, and human-first review. The third option is to move toward a custom multi-agent lifecycle model. I'd recommend a phased approach built from two of the three options. I recommend adopting a design framework now that uses clear design rules, a small prompt-template library built from strong internal examples, and a human-first review process. Then, as our needs grow, we can build toward a multi-agent model. I believe this approach will give us the best chance of keeping the benefits of AI without letting our codebase get harder to maintain each semester.
+
 # 5 Problem Description
 ## 5.1 Technical Debt and Skill Gaps
 
@@ -47,15 +107,13 @@ Other teams and companies have seen great results with the SOLID approach. For e
 
 Next, we can improve how we talk to the AI by using specific templates for our prompts. We considered using a Retrieval-Augmented Generation (RAG) system, but that might be more work than we need right now. Instead, we can just give the AI specific examples of our best code to copy. Research shows that giving AI a few good examples (called "few-shot learning") can drastically improve its results (Nashid, 2023). This helps stop the AI from just copy-pasting random code that doesn't fit our project (Tartaglia, 2025). By using these blueprints, we can make sure the AI builds things in a way that matches what we've already written without adding extra technical overhead.
 
-**Figure 1**
+**Figure 1**<br/>
+Title
 
-_Title_
+<img src="./PromptTemplates.png" alt="Example implementation of a prompt template system" width="700" height="400" style="display: block; margin: 0 auto;">
 
-![Example implementation of a prompt template system](./PromptTemplates.png)
-
-_Note._
-
-Pg 772
+_Note._ Short explanation of the image, where it was taken from, what page it was.
+<p>Pg 772</p>   
 
 ### Human Oversight
 
