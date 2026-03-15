@@ -15,24 +15,14 @@ Dear Dr. David Wood,
 
 I am pleased to submit my recommendation report, ***Stabilizing Speed: A Software Design Framework for AI-Assisted Development on the EYARC Experience Team***, for your review.
 
-Because you choose whether our team invests time in a design framework, I wrote this document to assist you in development planning for the next couple of months. My report focuses on the speed of new feature delivery, reducing the amount of time spend reviewing duplicated code, and our need for solutions that students can learn quickly without slowing the team down. The recommendation is less about our past mishaps (though they will be referenced), and more about how to integrate AI without reducing our delivery speed each semester. The cause of the aforementioned speed loss is supported by research on technical debt and AI-assisted development, which suggests that “quick wins” can become expensive when systems grow without shared structure, especially when small changes can be unpredictable across a codebase (Sculley et al., 2015; Tartaglia, 2025). My report recommends adopting a lightweight, student-friendly framework that combines:
+I wrote this report to support planning for how our team should use AI in a way that improves development speed without creating more long-term maintenance problems. The report explains the main causes of our current instability, examines three possible paths forward, and recommends a phased approach built around a lightweight design framework.
 
-* **A small set of design rules to reduce poor coupling**—which tends to increase maintenance effort as the application evolves (Yanakiev et al., 2025). 
-* **A prompt-template library (based on few-shot prompting) so AI output matches our preferred structures**, reducing inconsistency and time lost to refactoring (Esposito et al., 2026). 
-* **A “human-first” review protocol to guard against automation bias**, keeping students accountable for understanding and testing changes before merging (Romeo & Conti, 2026). 
+My recommendation is that our team adopt a framework with clear design rules, prompt guidance, and human-first review, while treating multi-agent verification as a longer-term direction. I believe this approach best fits our team’s needs because it supports both speed and code quality in our student-driven development environment.
 
-I am optimistic that this approach aligns with your three priorities for our team.
-
-1. **Ease of learning for students.** Evidence from programming education suggests that AI can support cleaner, less complex code when students are guided by conventions and standards (Haindl & Weinberger, 2024). 
-2. **Reasonable creation time for the guide.** My report proposes packaging guidance in an “actionable skills” format (short, structured, reusable) similar to how software development teams publish best-practice modules for agents, which is helpful for fast onboarding and consistent application (Pierzchała, 2026). 
-3. **Development time savings for new features.** Industry and academic sources share a consistent theme: AI tends to deliver strong ROI when teams reduce rework with context, patterns, and disciplined review (Sergeyuk et al., 2024; Tartaglia, 2025). When these patterns aren't used, like we do, the review and debugging overhead can decrease the speed gained when using AI. (Sergeyuk et al., 2024; Tartaglia, 2025). 
-
-As a student developer, my perspective is very focused on how this could be implemented and my own design biases. As such, I’ve tried to be careful about overclaiming. Where possible, I've built my proposed framework using external ideas and studies, such as how to refactor using design principles in large systems (Yanakiev et al., 2025), how to create maintainable code using design patterns and multi-agent workflows (Wang et al., 2025), and human in the loop practices that reduce overreliance on AI outputs (Esposito et al., 2026; Romeo & Conti, 2026).
-
-Thank you for taking the time to consider this recommendation. If you decide the approach is worthwhile, my report closes with a recommend starting plan, which you can adjust as you and our project manager see fit. The starting plan includes a short design-pattern guide, a small prompt library filled with our best code examples, and a review routine that keeps humans responsible for all AI generated code. I hope you find this useful as you strive to improve our teams speed and results.
+Thank you for your time and consideration. I hope this report is useful as you evaluate how our team should move forward.
 
 Sincerely,<br/>
-<img src="./01_letter_of_transmittal/Signature.png" alt="Bryce Lasson's Signature" width="250" height="50"><br/>
+<style>.sig { filter: invert(100%); } @media (prefers-color-scheme: dark) { .sig { filter: none; } }</style><img src="./Signature.png" alt="Bryce Lasson's Signature" width="250" height="50" class="sig">
 Bryce Lasson
 
 Enclosure: *Stabilizing Speed: A Software Design Framework for AI-Assisted Development on the EYARC Experience Team*
