@@ -22,7 +22,7 @@ My recommendation is that our team adopt a framework with clear design rules, pr
 Thank you for your time and consideration. I hope this report is useful as you evaluate how our team should move forward.
 
 Sincerely,<br/>
-<style>.sig { filter: invert(100%); } @media (prefers-color-scheme: dark) { .sig { filter: none; } }</style><img src="./Signature.png" alt="Bryce Lasson's Signature" width="250" height="50" class="sig">
+<picture><source media="(prefers-color-scheme: dark)" srcset="./Signature-White.png"><source media="(prefers-color-scheme: light)" srcset="./Signature-Black.png"><img alt="Signature" src="./Signature-Black.png" width="250" height="50"></picture><br/>
 Bryce Lasson
 
 Enclosure: *Stabilizing Speed: A Software Design Framework for AI-Assisted Development on the EYARC Experience Team*
