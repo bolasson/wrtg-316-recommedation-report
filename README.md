@@ -103,8 +103,6 @@ Other research also supports the value of structured design. In an ASML refactor
 
 ### Prompt Templates
 
-Next, we can improve how we talk to the AI by using specific templates for our prompts. A practical option is to give the AI selected examples of strong internal code and reusable prompts. Nashid et al. show that few-shot prompting with relevant retrieved code examples can substantially improve code-task performance, while Tartaglia argues that project-specific context helps AI tools align better with an existing codebase and reduces avoidable rework. Together, those findings support a lightweight prompt library as a reasonable intermediate step before a heavier retrieval system.
-
 Next, we can improve how we talk to the AI by using specific templates for our prompts. A practical option is to give the AI selected examples of strong internal code and reusable prompts. Nashid et al. show that few-shot prompting with relevant retrieved code examples can substantially improve code-task performance, while Tartaglia argues that project-specific context helps AI tools align better with an existing codebase and reduces avoidable rework. Together, those findings support a lightweight prompt library as a reasonable intermediate step before a heavier retrieval system.For example, see Figure 1 for how prompts and code examples could be used together in an AI-driven recommendation workflow.
 
 **Figure 1**<br/>
@@ -159,7 +157,13 @@ To begin moving from our current workflow toward this framework, I recommend thr
 
 These steps are not meant to slow our team down. They are meant to give us a clearer system for using AI so we can build better software with less rework over time.
 
-# 8 References
+# 8 GenAI Use Statement
+
+I used AI to help brainstorm my topic, find possible sources, and create the html to convert my references in google docs to markdown. I did not use AI to write any part of the report.
+
+# 9 References
+
+> Note, GitHub does not support hanging indents in markdown, so I have provided a link [here](https://docs.google.com/document/d/11wLpYUosUTbymes4HDNJWVONMkkU-dGbY6v2-v6M15A/edit?usp=sharing) to a Google Doc where I have displayed the references with proper hanging indents.
 
 <div style="text-align: center;"><b>References</b></div>
 
