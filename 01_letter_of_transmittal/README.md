@@ -1,15 +1,15 @@
+# 1 Letter of Transmittal
+
+Bryce Lasson<br/>
+436 Stadium Ave BSMT<br/>
+Provo, UT 84604
+
 March 14, 2026
 
-Bryce Lasson
-Software Developer
-436 Stadium Ave BSMT
-Provo, UT 84604
-
-Ernst & Young Academic Resource Center (EYARC)
-Dr. David Wood
-N. Eldon Tanner Building (TNRB), Brigham Young University
-332 Campus Dr
-Provo, UT 84604
+Dr. David Wood<br/>
+Team Leader, EYARC Lab at BYU<br/>
+332 Campus Dr<br/>
+Provo, UT, 84604
 
 Dear Dr. David Wood,
 
@@ -21,7 +21,7 @@ Because you choose whether our team invests time in a design framework, I wrote 
 * **A prompt-template library (based on few-shot prompting) so AI output matches our preferred structures**, reducing inconsistency and time lost to refactoring (Esposito et al., 2026). 
 * **A “human-first” review protocol to guard against automation bias**, keeping students accountable for understanding and testing changes before merging (Romeo & Conti, 2026). 
 
-I am optimistic that this approach aligns with your three priorities for are team.
+I am optimistic that this approach aligns with your three priorities for our team.
 
 1. **Ease of learning for students.** Evidence from programming education suggests that AI can support cleaner, less complex code when students are guided by conventions and standards (Haindl & Weinberger, 2024). 
 2. **Reasonable creation time for the guide.** My report proposes packaging guidance in an “actionable skills” format (short, structured, reusable) similar to how software development teams publish best-practice modules for agents, which is helpful for fast onboarding and consistent application (Pierzchała, 2026). 
@@ -31,6 +31,8 @@ As a student developer, my perspective is very focused on how this could be impl
 
 Thank you for taking the time to consider this recommendation. If you decide the approach is worthwhile, my report closes with a recommend starting plan, which you can adjust as you and our project manager see fit. The starting plan includes a short design-pattern guide, a small prompt library filled with our best code examples, and a review routine that keeps humans responsible for all AI generated code. I hope you find this useful as you strive to improve our teams speed and results.
 
-Sincerely,
-![Bryce Lasson's Signature](./Signature.png)
+Sincerely,<br/>
+<img src="./01_letter_of_transmittal/Signature.png" alt="Bryce Lasson's Signature" width="250" height="50"><br/>
 Bryce Lasson
+
+Enclosure: *Stabilizing Speed: A Software Design Framework for AI-Assisted Development on the EYARC Experience Team*

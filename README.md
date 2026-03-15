@@ -23,7 +23,7 @@ Because you choose whether our team invests time in a design framework, I wrote 
 * **A prompt-template library (based on few-shot prompting) so AI output matches our preferred structures**, reducing inconsistency and time lost to refactoring (Esposito et al., 2026). 
 * **A “human-first” review protocol to guard against automation bias**, keeping students accountable for understanding and testing changes before merging (Romeo & Conti, 2026). 
 
-I am optimistic that this approach aligns with your three priorities for are team.
+I am optimistic that this approach aligns with your three priorities for our team.
 
 1. **Ease of learning for students.** Evidence from programming education suggests that AI can support cleaner, less complex code when students are guided by conventions and standards (Haindl & Weinberger, 2024). 
 2. **Reasonable creation time for the guide.** My report proposes packaging guidance in an “actionable skills” format (short, structured, reusable) similar to how software development teams publish best-practice modules for agents, which is helpful for fast onboarding and consistent application (Pierzchała, 2026). 
@@ -58,6 +58,16 @@ Everyone on our team is currently a student, so we also deal with the challenges
 
 I considered three options. The first is to continue using AI without shared constraints. The second option is to create an integrated software design framework that uses software design patterns, prompt templates, and human-first review. The third option is to move toward a custom multi-agent lifecycle model. I'd recommend a phased approach built from two of the three options. I recommend adopting a design framework now that uses clear design rules, a small prompt-template library built from strong internal examples, and a human-first review process. Then, as our needs grow, we can build toward a multi-agent model. I believe this approach will give us the best chance of keeping the benefits of AI without letting our codebase get harder to maintain each semester.
 
+# 4 Introduction
+
+The EYARC Experience Team uses AI because it helps us move faster. But that speed has come with a cost. In our current workflow, AI-generated code has introduced bugs, weak structure, and technical debt that requires constant upkeep. We have seen this in our own work when quick solutions later turned into refactors, dependency issues, and extra review time. What looks fast at the start does not always stay fast once that code has to be maintained, extended, or understood by a new group of students.
+
+This issue matters even more because our team is built around student developers. Students graduate, move on, and join at different skill levels, so the codebase has to survive constant turnover. That makes consistency especially important. If our structure is weak, new students have a harder time understanding old code, and small problems are more likely to grow into bigger ones. AI can help us work faster, but on a student team like ours, speed without shared rules can make the problem worse instead of better.
+
+Because of that, I am proposing a framework built around what I call "Stabilizing Speed". By that, I mean creating a framework with clear rules that help students and AI work together to improve both production speed and code quality. My report argues that our team needs a framework so we can keep moving quickly without creating more long-term maintenance problems.
+
+This report first explains the problem by looking at technical debt, student turnover and skill gaps, system fragility, and automation bias. It then examines three options: continuing with unconstrained AI assistance, adopting an integrated software design framework, or moving toward a custom multi-agent lifecycle model. It closes by recommending a phased plan that starts with the design framework and treats multi-agent verification as a future direction.
+
 # 5 Problem Description
 ## 5.1 Technical Debt and Skill Gaps
 
@@ -83,7 +93,7 @@ In the end, the bugs and long-term problems we are seeing at the EYARC Experienc
 
 # 6 Options and Potential Solutions
 
-To help fix the issues we are having with buggy code and long-term instability, we have two main choices. We can either keep doing things the way we are right now with "fast and flimsy" AI, or we can start using a real software design plan to keep our main web app organized. To mitigate the risks of unconstrained AI, a more structured approach is required.
+To help fix the issues we are having with buggy code and long-term instability, we have three main options. We can keep doing things the way we are right now, we can start using a software design framework, or we can explore a multi-agent lifecycle model.
 
 ## Option A: Unconstrained AI Assistance
 
@@ -137,7 +147,7 @@ I believe that a combination of parts from Option B and Option C represents the 
 
 # 7. Conclusion and Implementation Recommendation
 
-The EYARC Experience Team has a clear opportunity to stop the cycle of bugs and long-term instability by changing how we use AI. While writing code quickly is a benefit, it is becoming clear that we cannot ignore the long-term cost of flimsy, unorganized software. By adopting a "Stabilizing Speed" framework that combines clear design rules with multi-agent verification, we can move away from just fixing old mistakes and start building tools that actually last. This change will allow us to focus on our core mission instead of constant maintenance.
+The EYARC Experience Team has a clear opportunity to stop the cycle of bugs and long-term instability by changing how we use AI. While writing code quickly is a benefit, it is becoming clear that we cannot ignore the long-term cost of flimsy, unorganized software. By adopting a "Stabilizing Speed" framework built first on clear design rules, prompt guidance, and human-first review, the EYARC Experience Team can reduce long-term instability while preserving the speed benefits of AI. Over time, that framework could expand toward multi-agent verification as the team’s needs grow.
 
 ## The ROI Argument: Stabilizing Speed
 

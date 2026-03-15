@@ -1,19 +1,9 @@
-# Introduction
-### controlling statement (thesis)
-answer a research question
-is the sum of the findings and recommendations
-complicated, more than one sentence
-controls the flow of the content throughout the report
+# 4 Introduction
 
-focus on the audience (david wood)
+The EYARC Experience Team uses AI because it helps us move faster. But that speed has come with a cost. In our current workflow, AI-generated code has introduced bugs, weak structure, and technical debt that requires constant upkeep. We have seen this in our own work when quick solutions later turned into refactors, dependency issues, and extra review time. What looks fast at the start does not always stay fast once that code has to be maintained, extended, or understood by a new group of students.
 
-1. Define the problem (subject)
-When our student team uses Generative Artificial Intelligence (GenAI) to generate code, they're able to accomplish short term goals, but often introduce long term technical debt.
-2. State your purpose
-I am going to propose a software design framework that guides students and GenAI in creating maintainable, secure, and bug-free code.
-3. State main point (controlling statement, problem to recommendation)
-4. Importance of the subject (why does it matter to the audience)
-We spend hours spent on bug fixes and dependency resolution (reference team GitHub stats).
-5. Background information
-> Note: the forecast must go at the end, everything else can be switched up.
-6. Forecast the content (overview of report, problem, solutions, sparkly recommendation!) (should reference the recommendation)
+This issue matters even more because our team is built around student developers. Students graduate, move on, and join at different skill levels, so the codebase has to survive constant turnover. That makes consistency especially important. If our structure is weak, new students have a harder time understanding old code, and small problems are more likely to grow into bigger ones. AI can help us work faster, but on a student team like ours, speed without shared rules can make the problem worse instead of better.
+
+Because of that, I am proposing a framework built around what I call "Stabilizing Speed". By that, I mean creating a framework with clear rules that help students and AI work together to improve both production speed and code quality. My report argues that our team needs a framework so we can keep moving quickly without creating more long-term maintenance problems.
+
+This report first explains the problem by looking at technical debt, student turnover and skill gaps, system fragility, and automation bias. It then examines three options: continuing with unconstrained AI assistance, adopting an integrated software design framework, or moving toward a custom multi-agent lifecycle model. It closes by recommending a phased plan that starts with the design framework and treats multi-agent verification as a future direction.
